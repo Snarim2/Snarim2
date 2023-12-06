@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .clear {
+            clear:both;
+        }
+
+        header {
+            width: 1140px;
+            height: 100px;
+            margin: 0 auto;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: '돋움';
+            font-size: 14px;
+            color: #ffffff;
+            background-color: black;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        header {
+            width: 1140px;
+            height: 100px;
+            margin: 0 auto;
+        }
+
+        #logo {
+            float: left;
+            margin: 20px 0 0 20px;
+        }
+
+        #menus {
+            float: right;
+        }
+
+        #top_menu {
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        #main_menu {
+            margin-top: 20px;
+            font-family: '맑은고딕';
+            font-size: 20px;
+            color: white;
+        }
+
+        #main_menu li {
+            display: inline;
+            margin-left: 80px;
+        }
+        #main_img {
+            width: 100%;
+            height: 281px;
+            background-image: url('./img/6.png');
+            background-repeat: no-repeat;
+            background-position: top center;
+            margin-top: 20px;
+        }
+
+        #main_contents {
+            text-align: center;
+            margin: 100px 0 100px 0;
+            white-space: nowrap; 
+        }
+        #contents {
+            overflow-x: auto; 
+            white-space: nowrap; 
+        }
+
+        #main_contents img {
+            margin: 0 50px; 
+            display: inline-block;
+        }
+        footer {
+            width: 100%;
+            height: 150px;
+            margin-top: 30px;
+            background-color: #2c2a29;
+        }
+
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+            border: solid 1px #2c2a29;
+        }
+
+        #footer_logo {
+            float: left;
+            margin: 20px 0 0 30px;
+            border: solid 1px #2c2a29;
+        }
+
+        #address {
+            float: right;
+            margin: 30px 30px 0 0;
+            color: white;
+            border: solid 1px #2c2a29;
+        }
+
+        a:link, a:visited {
+            color: white;
+            margin: 0 0 0 0;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="main.html"><img src="./img/logo.png" width="150px"></a>
+        </div>
+        <nav id="menus">
+            <div id="top_menu">
+            </div>
+            <ul id="main_menu">
+                <li><a href='kind1.html'>종류</a></li>
+                                <li><a href='kiho.html'>악보기호</a></li>
+                <li><a href= 'step.html'>단계</a></li>
+                <li><a href='photo-academy-step1.html'>작곡가</a></li>
+                <li><a href= 'photo-academy-step6.html'>감상</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main_img">
+    </section>
+
+    <section id="contents">
+        <div id="main_contents">
+            <img src="./img/b1.png">
+            <img src="./img/b2.png">
+            <img src="./img/b3.png">
+            <img src="./img/b4.png">
+            <img src="./img/b5.png">
+        </div>
+    </section>
+
+    <div class="clear"></div>
+    
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <img src="./img/logo.png">
+            </div>
+            <ul id="address">
+                <li>22361069이나림</li>
+                <li>TEL:031-123-1234 Email:nrapple04@gmail.com</li>
+                <li>If you want, you can play as much as you want.</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
